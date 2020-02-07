@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff879d4b-48b3-4fdc-beea-f0e221f418b3" name="Default Changelist" comment="" />
+    <list default="true" id="ff879d4b-48b3-4fdc-beea-f0e221f418b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CucumberBasics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CucumberBasics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Java8VersionStop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Transformation/EmailTransform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Transformation/SalaryCountTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Hook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Java8VersionStop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginSteps$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/LoginSteps$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Transformation/EmailTransform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Transformation/EmailTransform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Transformation/SalaryCountTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Transformation/SalaryCountTransformer.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +55,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,11 +66,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1XRgyQZXQnV075ROjVQ1gZoeqSF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/Mica/CucumberBasics" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -162,22 +208,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581107645433" />
-    <state width="1323" height="151" key="GridCell.Tab.0.bottom" timestamp="1581109516127">
+    <state width="1323" height="151" key="GridCell.Tab.0.bottom" timestamp="1581115347313">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581109516127" />
-    <state width="1323" height="151" key="GridCell.Tab.0.center" timestamp="1581109516127">
+    <state width="1323" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581115347313" />
+    <state width="1323" height="151" key="GridCell.Tab.0.center" timestamp="1581115347312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581109516127" />
-    <state width="1323" height="151" key="GridCell.Tab.0.left" timestamp="1581109516127">
+    <state width="1323" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581115347312" />
+    <state width="1323" height="151" key="GridCell.Tab.0.left" timestamp="1581115347312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581109516127" />
-    <state width="1323" height="151" key="GridCell.Tab.0.right" timestamp="1581109516127">
+    <state width="1323" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581115347312" />
+    <state width="1323" height="151" key="GridCell.Tab.0.right" timestamp="1581115347312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581109516127" />
+    <state width="1323" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581115347312" />
     <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1581107655925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -194,10 +240,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581107655925" />
-    <state x="104" y="12" key="SettingsEditor" timestamp="1581109313205">
+    <state x="104" y="12" key="SettingsEditor" timestamp="1581113212153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="104" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581109313205" />
+    <state x="104" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581113212153" />
     <state x="720" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1581108101340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -210,9 +256,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="99" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1581087417870" />
-    <state x="366" y="107" width="672" height="678" key="search.everywhere.popup" timestamp="1581087442330">
+    <state x="366" y="107" width="672" height="678" key="search.everywhere.popup" timestamp="1581111613768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="366" y="107" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581087442330" />
+    <state x="366" y="107" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581111613768" />
   </component>
 </project>

@@ -4,7 +4,6 @@ Feature: LoginFeature
     Given I navigate to the login page
     And I enter the users email address as Email:admin
     And I verify the count of my salary digits for Rs 1000000
-    And I just need to see how steps looks for Cucumber-Java8
     And I enter the following for Login
       | username | password      |
       | admin    | adminpassword |

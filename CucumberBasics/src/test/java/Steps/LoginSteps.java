@@ -1,8 +1,7 @@
 package Steps;
 
 import Base.BaseUtil;
-import Transformation.EmailTransform;
-import Transformation.SalaryCountTransformer;
+
 import cucumber.api.DataTable;
 import cucumber.api.Transform;
 import cucumber.api.java.en.And;
@@ -23,8 +22,9 @@ public class LoginSteps extends BaseUtil {
     }
 
     @Given("^I navigate to the login page$")
-    public void iNavigateToTheLoginPage() {
+    public void iNavigateToTheLoginPage() throws Throwable{
         System.out.println("I navigate to the login page");
+        base.Driver.navigate().to("http://www.executeautomation.com/demosite/Login.html");
     }
 
 
@@ -35,7 +35,6 @@ public class LoginSteps extends BaseUtil {
 
     @Then("^I should see the userform page$")
     public void iShouldSeeTheUserformPage() {
-        System.out.println("The driver is: " + base.StepInfo);
         System.out.println("I should see the userform page");
     }
 
@@ -63,16 +62,6 @@ public class LoginSteps extends BaseUtil {
         System.out.println("Password is : " + password);
     }
 
-    @And("^I enter the users email address as Email:([^\"]*)$")
-    public void iEnterTheUsersEmailAddressAsEmailAdmin(@Transform(EmailTransform.class) String email) {
-        System.out.println("The email address is: " + email);
-    }
-
-    @And("^I verify the count of my salary digits for Rs (\\d+)$")
-    public void iVerifyTheCountOfMySalaryDigitsForRs(@Transform(SalaryCountTransformer.class) int salary) {
-
-        System.out.println("My salary digits count are: " + salary);
-    }
 
     public class User {
         public String username;
