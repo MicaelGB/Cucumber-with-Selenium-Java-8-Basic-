@@ -9,6 +9,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import pages.LoginPage;
 import sun.security.util.Password;
 
 import java.lang.reflect.Constructor;
@@ -32,8 +33,9 @@ public class LoginSteps extends BaseUtil {
 
     @And("^I click login button$")
     public void iClickLoginButton() {
-
-        base.Driver.findElement(By.name("Login")).submit();
+        LoginPage page = new LoginPage(base.Driver);
+        page.ClickLogin();
+        //base.Driver.findElement(By.name("Login")).submit();
     }
 
     @Then("^I should see the userform page$")
@@ -48,9 +50,10 @@ public class LoginSteps extends BaseUtil {
         //Store all users
         users = table.asList(User.class);
 
+        LoginPage page = new LoginPage(base.Driver);
+
         for (User user: users){
-            base.Driver.findElement(By.name("UserName")).sendKeys(user.username);
-            base.Driver.findElement(By.name("Password")).sendKeys(user.password);
+            page.Login(user.username, user.password);
         }
 
     }
