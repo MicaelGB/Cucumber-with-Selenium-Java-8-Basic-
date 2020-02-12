@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11772453300,
+  "duration": 9608197900,
   "status": "passed"
 });
 formatter.scenario({
@@ -58,32 +58,32 @@ formatter.match({
   "location": "LoginSteps.iNavigateToTheLoginPage()"
 });
 formatter.result({
-  "duration": 3016980801,
+  "duration": 2524341300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iEnterTheFollowingForLogin(DataTable)"
 });
 formatter.result({
-  "duration": 915938399,
+  "duration": 763204700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickLoginButton()"
 });
 formatter.result({
-  "duration": 592190699,
+  "duration": 474031800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iShouldSeeTheUserformPage()"
 });
 formatter.result({
-  "duration": 86500,
+  "duration": 339746700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 150401,
+  "duration": 181200,
   "status": "passed"
 });
 });
