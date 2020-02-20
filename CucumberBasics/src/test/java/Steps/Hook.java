@@ -1,14 +1,9 @@
 package Steps;
 
 import Base.BaseUtil;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import org.openqa.selenium.WebDriver;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-
-import java.sql.Driver;
 
 public class Hook extends BaseUtil {
 

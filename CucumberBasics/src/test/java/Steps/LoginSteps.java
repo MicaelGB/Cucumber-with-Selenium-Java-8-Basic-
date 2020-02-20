@@ -1,21 +1,13 @@
 package Steps;
 
 import Base.BaseUtil;
-
-import cucumber.api.DataTable;
-import cucumber.api.Transform;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import pages.LoginPage;
-import sun.security.util.Password;
-
-import java.lang.reflect.Constructor;
-import java.util.ArrayList;
-import java.util.List;
 
 public class LoginSteps extends BaseUtil {
 
@@ -48,16 +40,16 @@ public class LoginSteps extends BaseUtil {
     public void iEnterTheFollowingForLogin(DataTable table) {
 
         //Create an array list
-        List<User> users = new ArrayList<User>();
+        //List<User> users = new ArrayList<User>();
         //Store all users
-        users = table.asList(User.class);
+        var users = table.asList(String.class);
 
         LoginPage page = new LoginPage(base.Driver);
 
-        for (User user: users){
-            page.Login(user.username, user.password);
-        }
-
+        //for (User user: users){
+            //page.Login(user.username, user.password);
+        //}
+        page.Login(users.get(2).toString(), users.get(3).toString());
     }
 
     @And("^I enter ([^\"]*) and ([^\"]*)$")

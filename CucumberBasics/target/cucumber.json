@@ -3,10 +3,11 @@
     "line": 1,
     "elements": [
       {
+        "start_timestamp": "2020-02-20T19:30:39.060Z",
         "before": [
           {
             "result": {
-              "duration": 9608197900,
+              "duration": 8603124700,
               "status": "passed"
             },
             "match": {
@@ -21,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 181200,
+              "duration": 2327100,
               "status": "passed"
             },
             "match": {
@@ -34,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2524341300,
+              "duration": 1461258200,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 763204700,
+              "duration": 544889000,
               "status": "passed"
             },
             "line": 5,
@@ -59,22 +60,20 @@
                 "cells": [
                   "username",
                   "password"
-                ],
-                "line": 6
+                ]
               },
               {
                 "cells": [
                   "admin",
                   "adminpassword"
-                ],
-                "line": 7
+                ]
               }
             ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 474031800,
+              "duration": 552123400,
               "status": "passed"
             },
             "line": 8,
@@ -86,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 339746700,
+              "duration": 205576900,
               "status": "passed"
             },
             "line": 9,
@@ -103,6 +102,7 @@
     "description": "",
     "id": "loginfeature",
     "keyword": "Feature",
-    "uri": "Login.feature"
+    "uri": "file:src/test/java/Features/Login.feature",
+    "tags": []
   }
 ]
